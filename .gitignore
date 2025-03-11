@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Build outputs
+build/
+dist/
+.next/
+.nuxt/
+.cache/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# Environment variables
+.env
+*.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Other generated files
+*.tgz
+.lock-wscript
+.eslintcache
+node_repl_history
+.tern-port
+
+# Test reports
+mochawesome-report/
+doc/
+
+# Uploaded files (adjust if necessary)
+upload/
